@@ -1,0 +1,42 @@
+html {
+  font-size: 10px;
+  height: 100vh;
+
+  background: url("./img/background.bmp") bottom center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+#keys {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.key {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 10rem;
+  max-height: 100px;
+  color: #ffc600;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  text-shadow: 0 0 0.5rem black;
+}
+
+kbd {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  display: block;
+}
+
+span {
+  color: #ffc600;
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
